@@ -1,7 +1,7 @@
 import ogImageSrc from '@images/social.png';
 
 export const SITE = {
-  title: 'ScrewFast',
+  title: 'with The Lazy Innovator',
   tagline: 'Top-quality Hardware Tools',
   description:
     'ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs. Start exploring and contact our sales team for superior quality and reliability.',
@@ -18,6 +18,83 @@ export const OG = {
 };
 
 export const partnersData = [
+  {
+    icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 180" width="600" height="180">
+  <defs>
+    
+    <radialGradient id="bulbGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FBBF24" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#FBBF24" stop-opacity="0" />
+    </radialGradient>
+
+    
+    <linearGradient id="bulbGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+
+  
+  <rect width="600" height="180" rx="16" fill="#0F172A" />
+
+  
+  <circle cx="95" cy="82" r="58" fill="url(#bulbGlow)" />
+
+  
+  <g transform="translate(95, 88) rotate(32) translate(-95, -88)">
+    
+    <line x1="95" y1="22" x2="95" y2="30" stroke="#FBBF24" stroke-width="3" stroke-linecap="round" />
+    <line x1="58" y1="36" x2="64" y2="42" stroke="#FBBF24" stroke-width="3" stroke-linecap="round" />
+    <line x1="132" y1="36" x2="126" y2="42" stroke="#FBBF24" stroke-width="3" stroke-linecap="round" />
+
+    
+    <path d="M 73 72 
+             C 73 56, 83 45, 95 45 
+             C 107 45, 117 56, 117 72 
+             C 117 82, 110 89, 106 96 
+             L 84 96 
+             C 80 89, 73 82, 73 72 Z" fill="url(#bulbGrad)" />
+
+    
+    <path d="M 90 96 L 90 78 Q 95 72 100 78 L 100 96" fill="none" stroke="#FFFBEB" stroke-width="2.5" stroke-linecap="round" />
+
+    
+    <rect x="85" y="99" width="20" height="5" rx="2.5" fill="#94A3B8" />
+    <rect x="87" y="106" width="16" height="5" rx="2.5" fill="#64748B" />
+    <path d="M 90 113 L 100 113 L 98 117 L 92 117 Z" fill="#475569" />
+  </g>
+
+  
+  <path d="M 42 116 Q 92 146 146 112" fill="none" stroke="#38BDF8" stroke-width="4" stroke-linecap="round" />
+  
+  <circle cx="42" cy="116" r="3.5" fill="#38BDF8" />
+  <circle cx="146" cy="112" r="3.5" fill="#38BDF8" />
+
+  
+  <text x="128" y="54" font-family="system-ui, -apple-system, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="13" font-weight="700" fill="#94A3B8" opacity="0.85">z</text>
+  <text x="137" y="44" font-family="system-ui, -apple-system, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="16" font-weight="700" fill="#CBD5E1" opacity="0.9">Z</text>
+
+  
+  <g transform="translate(178, 0)">
+    
+    <text x="2" y="64" font-family="system-ui, -apple-system, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="15" font-weight="700" letter-spacing="4" fill="#38BDF8">
+      THE
+    </text>
+
+    
+    <text x="0" y="103" font-family="system-ui, -apple-system, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="42" font-weight="800" letter-spacing="-0.5" fill="#F8FAFC">
+      LAZY
+    </text>
+
+    
+    <text x="1" y="135" font-family="system-ui, -apple-system, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="28" font-weight="400" letter-spacing="3.5" fill="#CBD5E1">
+      INNOVATOR
+    </text>
+  </g>
+</svg>`,
+    name: 'fifth',
+    href: '#',
+  },
   {
     icon: `<svg
       class="mx-auto h-auto w-32 py-3 sm:mx-0 lg:w-40 lg:py-5"
